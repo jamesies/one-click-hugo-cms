@@ -1,121 +1,134 @@
-############################ Default configuration #########################
-baseURL = "https://www.timelessjostudio.com/"
+######################## default configuration ####################
+baseURL = "https://examplesite.com"
 languageCode = "en-us"
-# site title 
-title = "Northendlab | Blog Template"
-# theme
-theme = "northendlab-hugo"
-# post pagination
-paginate = "5"
-# post excerpt
+title = "Liva | Personal blog template"
+theme = "liva-hugo"
 summaryLength = "10"
-# disqus short name
-disqusShortname = "" # get your shortname form here : https://disqus.com
+paginate = 6
+disqusShortname = ""
 
 [outputs]
-home = ["HTML", "AMP", "RSS", "JSON"]
+  home = ["HTML", "AMP", "RSS", "JSON"]
 
-########################## Plugings ######################################
+############################# Plugins ##############################
+[params.plugins]
 
-# css plugins
-[[params.plugins.css]]
-URL = "plugins/bootstrap/bootstrap.min.css"
-[[params.plugins.css]]
-URL = "plugins/themify-icons/themify-icons.css"
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "plugins/bootstrap/bootstrap.min.css"
+  [[params.plugins.css]]
+  URL = "plugins/slick/slick.css"
+  [[params.plugins.css]]
+  URL = "plugins/themify-icons/themify-icons.css"
+  [[params.plugins.css]]
+  URL = "plugins/venobox/venobox.css"
 
-# js plugins
-[[params.plugins.js]]
-URL = "plugins/jQuery/jquery.min.js"
-[[params.plugins.js]]
-URL = "plugins/bootstrap/bootstrap.min.js"
-[[params.plugins.js]]
-URL = "plugins/search/fuse.min.js"
-[[params.plugins.js]]
-URL = "plugins/search/mark.js"
-[[params.plugins.js]]
-URL = "plugins/search/search.js"
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "plugins/jQuery/jquery.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/bootstrap/bootstrap.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/slick/slick.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/venobox/venobox.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/search/fuse.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/search/mark.js"
+  [[params.plugins.js]]
+  URL = "plugins/search/search.js"
+
+  
+############################## navigation ###############################
+[menu]
+  
+  # main menu
+  [[menu.main]]
+  name = "About"
+  URL = "about/about"
+  weight = 2
+  
+  [[menu.main]]
+  name = "Post"
+  URL = "blog"
+  weight = 3
+  
+  [[menu.main]]
+  name = "Contact"
+  URL = "contact"
+  weight = 4
+
+  # footer menu
+  [[menu.footer]]
+  name = "About"
+  URL = "about/about"
+  weight = 2
+  
+  [[menu.footer]]
+  name = "Post"
+  URL = "blog"
+  weight = 3
+  
+  [[menu.footer]]
+  name = "Contact"
+  URL = "contact"
+  weight = 4
 
 
-########################### Navigation ###################################
-
-# main menu
-[[menu.main]]
-URL = "contact"
-name = "Contact"
-weight = 1
-
-[[menu.main]]
-URL = "tools"
-name = "tools"
-weight = 2
-
-# footer menu
-[[menu.footer]]
-URL = "contact"
-name = "Contact"
-weight = 1
-
-[[menu.footer]]
-URL = "tools"
-name = "tools"
-weight = 2
-
-
-######################### Default Parameters ###########################
+#################### default parameters ################################
 [params]
-# home
+logo = "images/logo.png"
 home = "Home"
-# logo
-logo = "images/logo.svg"
-# meta data
-author = "Themefisher"
+# Meta data
 description = "This is meta description"
-# google analitycs ID
+author = "Themefisher"
+# Google Analitycs
 googleAnalitycsID = "Your ID"
-# contact form action
-contactFormAction = "#" # contact form works with : https://formspree.io
+# Contact Information
+mobile = "0124857985320"
+email = "demo@email.com"
+location = "Dhaka, Bangladedsh"
 # copyright
-copyright = "&copy; 2019 [Gethugothemes](https://gethugothemes.com) All Rights Reserved"
+copyright = "| @2019 [Themefisher](https://themefisher.com) All Rights Reserved |"
 
-# preloader
-[params.preloader]
+  # Preloader
+  [params.preloader]
+  enable = true
+  preloader = "" # use .png , .svg or .gif format
+
+  # search
+  [params.search]
+  enable = true
+
+############################ news letter ########################
+[params.newsletter]
 enable = true
-preloader = "" # use png, jpg, svg or gif format
+title = "Join Our Newsletter"
+content = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero"
 
-# search
-[params.search]
-enable = true
-
-
-####################### banner #######################################
-[params.banner]
-bgImage = "images/banner/banner-bg.svg"
-title = "Hi, I'm John Smith Doe. <br> I help people make the  worlds best software"
-image = "images/banner/illustration.svg"
-
-
-######################## call to action ###############################
-[params.cta]
-enable = true
-image = "images/hugo-muscot.svg"
-title = "Get the best hugo templates"
-description = "Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus."
-[params.cta.button]
-enable = true
-label = "Visit Here"
-link = "https://gethugothemes.com/shop/"
-
-
-############################## Social Site ##########################
+############################# social site ########################
 [[params.social]]
-icon = "ti-facebook" # themify icon pack https://themify.me/themify-icons
+title = "facebook"
+icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
 link = "#"
+
 [[params.social]]
-icon = "ti-twitter-alt" # themify icon pack https://themify.me/themify-icons
+title = "twitter"
+icon = "ti-twitter-alt" # themify icon : https://themify.me/themify-icons
 link = "#"
+
 [[params.social]]
-icon = "ti-github" # themify icon pack https://themify.me/themify-icons
+title = "instagram"
+icon = "ti-instagram" # themify icon : https://themify.me/themify-icons
 link = "#"
+
 [[params.social]]
-icon = "ti-linkedin" # themify icon pack https://themify.me/themify-icons
+title = "github"
+icon = "ti-github" # themify icon : https://themify.me/themify-icons
+link = "#"
+
+[[params.social]]
+title = "linkedin"
+icon = "ti-linkedin" # themify icon : https://themify.me/themify-icons
 link = "#"

@@ -6,14 +6,6 @@
     $('.preloader').fadeOut(100);
   });
 
-  // navigation
-  $(window).scroll(function () {
-    if ($('.navigation').offset().top > 1) {
-      $('.navigation').addClass('nav-bg');
-    } else {
-      $('.navigation').removeClass('nav-bg');
-    }
-  });
 
   //  Search Form Open
   $('#searchOpen').on('click', function () {
@@ -22,5 +14,24 @@
   $('#searchClose').on('click', function () {
     $('.search-wrapper').removeClass('open');
   });
+
+  // featured post slider
+  $('.featured-post-slider').slick({
+    infinite: true,
+    vertical: true,
+    verticalSwiping: true,
+    arrows: false,
+    dots: true,
+    responsive: [{
+      breakpoint: 600,
+      settings: {
+        vertical: false,
+        verticalSwiping: false,
+      }
+    }]
+  });
+
+  // venobox initialize
+  $('.venobox').venobox();
 
 })(jQuery);
