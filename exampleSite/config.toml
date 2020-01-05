@@ -1,5 +1,5 @@
 ############################ Default configuration #########################
-baseURL = "https://examplesite.com/"
+baseURL = "http://www.timelessjostudio.com/"
 languageCode = "en-us"
 # site title 
 title = "Northendlab | Blog Template"
