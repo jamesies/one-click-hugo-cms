@@ -75,7 +75,7 @@ theme = "hugo-myportfolio-theme"
             projects = [
                 { section = "pro", label = "PROFESSIONAL" },
                 { section = "perso", label = "PERSONAL" },
-                                { section = "weddingJan25", label = "James Wedding" }
+                                { section = "weddings", label = "WEDDINGS" }
 
             ]
             contact  = "CONTACT"
@@ -86,7 +86,7 @@ theme = "hugo-myportfolio-theme"
     [params.projects]
         # Values in "categories" must be the same as in navigation menu "projects".
         # (& must correspond to the section directories)
-        categories = [ "pro", "perso" ]
+        categories = [ "pro", "perso", "weddings" ]
 
         # Post orders:
         # - list of posts:
