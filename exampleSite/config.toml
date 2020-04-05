@@ -6,7 +6,7 @@ preserveTaxonomyNames = "true"
 
 baseurl = "https://timelessjostudio.com/"
 languageCode = "en-us"
-title = "HUGO MyPortfolio Theme"
+title = "Timeless Jo Studio"
 theme = "hugo-myportfolio-theme"
 
 
@@ -74,7 +74,9 @@ theme = "hugo-myportfolio-theme"
             skills   = "SKILLS"
             projects = [
                 { section = "pro", label = "PROFESSIONAL" },
-                { section = "perso", label = "PERSONAL" }
+                { section = "perso", label = "PERSONAL" },
+                                { section = "weddingJan25", label = "James Wedding" }
+
             ]
             contact  = "CONTACT"
 
