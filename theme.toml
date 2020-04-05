@@ -1,12 +1,17 @@
-name = "Liva Hugo"
-license = "MIT"
-licenselink = "https://github.com/themefisher/liva-hugo/blob/master/LICENSE"
-description = "Hugo port of the Themefisher’s Liva Template"
-homepage = "https://gethugothemes.com/products/liva-hugo/"
-tags = ['landing-page', 'fast', 'light', 'white', 'modern', 'themefisher', 'hugo-theme', 'hugo-templates', 'bootstrap', 'blog', 'responsive', 'clean', 'simple', 'creative', 'contact-form', 'custom-themes', 'mobile', 'minimalistic', 'pages', 'resume', 'portfolio', 'google analytics', 'customizable', 'flexbox', 'presentation', 'product', 'theme', 'typography']
-features = ['bootstrap','responsive']
-min_version = "0.58.0"
+name = "MyPortfolio"
+license = "Apache License 2.0"
+licenselink = "//github.com/2-REC/hugo-myportfolio-theme/blob/master/LICENSE"
+description = "A portfolio HUGO theme for developers and creatives."
+homepage = "https://derekseverin.netlify.com/"
+tags = ["portfolio", "blog", "responsive", "personal", "business", "projects", "bootstrap"]
+features = ["blog", "responsive", "dynamic content", "substitutable strings"]
+min_version = 0.44
 
 [author]
-  name = "Themefisher"
-  homepage = "https://themefisher.com/"
+  name = "2-REC"
+  homepage = "//github.com/2-REC"
+
+[original]
+  name = "digitalcraftsman"
+  homepage = "//github.com/digitalcraftsman"
+  repo = "//github.com/digitalcraftsman/hugo-creative-theme"
