@@ -4,9 +4,9 @@
     --GENERAL-FONT-2: "Fjalla One", "Helvetica Neue", Arial, sans-serif;
     --GENERAL-FONT-3: "Anton", "Helvetica Neue", Arial, sans-serif;
 
-    --GENERAL-COLOR-1: rgb(177, 162, 243);
-    --GENERAL-COLOR-2: grey;
-    --GENERAL-FONT-COLOR-1: black;
+    --GENERAL-COLOR-1: rgb(255, 255, 255);
+    --GENERAL-COLOR-2: rgb(255, 255, 255);
+    --GENERAL-FONT-COLOR-1: rgb(255, 255, 255);
     --GENERAL-FONT-COLOR-2: var(--GENERAL-COLOR-1);
     --GENERAL-FONT-COLOR-3: var(--GENERAL-COLOR-2);
     --GENERAL-FONT-COLOR-4: rgba(153, 153, 214, 0.425);
