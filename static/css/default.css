@@ -5,7 +5,7 @@
     --GENERAL-FONT-3: "Anton", "Helvetica Neue", Arial, sans-serif;
 
     --GENERAL-COLOR-1: rgb(64, 95, 240);
-    --GENERAL-COLOR-2: grey;
+    --GENERAL-COLOR-2: black;
     --GENERAL-FONT-COLOR-1: black;
     --GENERAL-FONT-COLOR-2: var(--GENERAL-COLOR-1);
     --GENERAL-FONT-COLOR-3: var(--GENERAL-COLOR-2);
