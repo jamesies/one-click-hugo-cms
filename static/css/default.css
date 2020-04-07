@@ -28,7 +28,7 @@
     --HERO-IMAGE-MARGIN-BOTTOM-SMALL: -75px;
 
     --PROJECTBOX-IMAGE-WIDTH: 650px;
-    --PROJECTBOX-CAPTION-BACKGROUND-COLOR: rgba(64, 95, 240, .9);
+    --PROJECTBOX-CAPTION-BACKGROUND-COLOR: rgba(128, 146, 223);
 
     --NAVBAR-HEIGHT: 50px; /* ! - Must correspond to the real navbar height! (Horrible hack) */
     --NAVBAR-BACKGROUND-COLOR: rgba(255, 255, 255, .3);
