@@ -5,17 +5,16 @@ background_image: "services.jpg"
 # List of services.
 # Optional "text", "icon_pack" & "list"
 services:
-- name: "Service 1"
+- name: "Photography"
   icon: "fa-chalkboard-teacher"
   icon_pack: "fas"
-  list: [ "One thing", "Another thing", "And some more ..." ]
-- name: "Service 2"
+  text: [ "Real Estate Photography", "Architecture Photography" ]
+- name: "Videography"
   icon: "fa-window-restore"
   icon_pack: "fas"
-  text: "I am also able to do this."
-- name: "Service 3"
+  text: "If a picture is worth a thousand words, then a video is worth a million."
+- name: "3D Virtual Tour Walkthrough"
   icon: "fa-concierge-bell"
   icon_pack: "fas"
-  text: "And this:"
-  list: [ "Sub service 1", "Sub service 2" ]
+  text: "The future is now, house inspection prior to lease signing can be completed in a more efficient methodology."
 ---
